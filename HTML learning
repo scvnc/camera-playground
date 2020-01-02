@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Liscanner</title>    
+    </head>
+    <body>
+        <!-- Headings-->
+        <h1>heading 1</h1>
+        <h2>heading 2</h2>
+        <h3>heading 2</h3>
+        <h4>heading 2</h4>
+
+        <!--paragraphs-->
+        <p>
+            Lorem, ipsum <a href="http://google.com" >google </a>dolor sit amet consectetur <strong> adipisicing elit. Explicabo </strong> magnam ea dolor reiciendis <em> reprehenderit, optio, dicta cupiditate </em>laborum animi, neque adipisci maxime? Harum, asperiores itaque aut pariatur veniam a obcaecati.
+        </p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo magnam ea dolor reiciendis reprehenderit, optio, dicta cupiditate laborum animi, neque adipisci maxime? Harum, asperiores itaque aut pariatur veniam a obcaecati.
+        </p>
+    </body>
+</html>
