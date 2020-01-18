@@ -4,23 +4,55 @@
 
 
     <div>
-        <label>Name: </label> <input name="name" type="text"/>
+        <label>Game: </label>
+        <input name="name" type="text"/>
     </div>
 
     <div>
-        <label>Age: </label> <input name="age" type="number"/>
+        <label>Score: </label>
+        <input name="age" type="number"/>
     </div>
+
+    <div>
+        <label>Picture: </label>
+        <input name="picture" type="file" onchange="handleFileChanged(this)" />
+    </div>
+
 
     <input type="submit" />
 
-    <div class="form-group">
-        <label for="exampleInputEmail1">Favorite Pancake</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        <small id="emailHelp" class="form-text text-muted">IHOP or Village Inn?</small>
-      </div>
+
+    <img id="preview" src="https://i.imgur.com/J6CEpNR.jpg" alt="Your Score" width="100" height="100" />
 
 </form>
 
+<script>
+
+
+function handleFileChanged(inputElement) {
+
+    var reader = new FileReader();
+    var fileToRead = inputElement.files[0];
+
+    reader.onload = function handleFileLoad (event) {
+
+        var imageData = event.target.result;
+
+        document.getElementById('preview')
+            .setAttribute('src', imageData)
+    };
+
+    reader.readAsDataURL(fileToRead);
+
+}
+
+// Example on how to set the attribute
+var imgPreview = document.getElementById('preview')
+var srcAttr = imgPreview.setAttribute('src', 'https://i.imgur.com/4gNU4MJ.jpg')
+
+
+
+</script>
 
 https://httpbin.org/post
 
