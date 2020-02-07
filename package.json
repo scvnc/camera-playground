@@ -1,0 +1,24 @@
+{
+  "name": "camera-playground",
+  "version": "1.0.0",
+  "description": "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\r LICENSE\r =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scvnc/camera-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scvnc/camera-playground/issues"
+  },
+  "homepage": "https://github.com/scvnc/camera-playground#readme",
+  "dependencies": {
+    "jinja": "^0.13.4",
+    "koa": "^2.11.0",
+    "nunjucks": "^3.2.0"
+  }
+}
