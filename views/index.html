@@ -1,4 +1,27 @@
 
 {% for item in items %}
-    <b>{{item.name}} {{item.score}}</b>
+    <b>{{item.score}} {{item.score}} {{item.game}} {{item.date}}</b>
 {% endfor %}
+
+<h2>Leaderboard</h2>
+
+<table>
+  <tr>
+    <th>Game</th>
+    <th>Score</th>
+    <th>Date</th>
+  </tr>
+
+  {% for item in items %}
+  <tr>
+    <td> {{item.name}} </td>
+    <td>{{item.score}}</td>
+    <td>{{item.game}}</td>
+    <td>{{item.date}}</td>
+  </tr>
+  {% endfor %}
+
+</table>
+<script>
+document.getElementById("demo").innerHTML = item.name;
+</script>
